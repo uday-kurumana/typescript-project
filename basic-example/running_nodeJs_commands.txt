@@ -1,0 +1,47 @@
+PS D:\training\typescript> mkdir  basic-example
+
+
+    Directory: D:\training\typescript
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/18/2025  12:57 PM                basic-example
+
+
+PS D:\training\typescript> cd basic-example    
+PS D:\training\typescript\basic-example> npm init -y         
+Wrote to D:\training\typescript\basic-example\package.json:
+
+{
+  "name": "basic-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS D:\training\typescript\basic-example> npm install typescript --save-dev
+
+added 1 package, and audited 2 packages in 2s
+
+found 0 vulnerabilities
+PS D:\training\typescript\basic-example> npm tsc --init
+Unknown command: "tsc"
+
+To see a list of supported npm commands, run:
+  npm help
+PS D:\training\typescript\basic-example> npx tsc --init
+
+Created a new tsconfig.json                                                   
+                                                                           TS 
+You can learn more at https://aka.ms/tsconfig
+PS D:\training\typescript\basic-example> npx tsc
+PS D:\training\typescript\basic-example> node index.js
+Hello, GeeksforGeeks!
